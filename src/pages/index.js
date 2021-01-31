@@ -1,5 +1,7 @@
 import React from "react"
 import { graphql } from 'gatsby';
+import Article from '../components/article/article.component.jsx';
+
 
 const IndexPage = ({ data }) => {
   console.log(data);
