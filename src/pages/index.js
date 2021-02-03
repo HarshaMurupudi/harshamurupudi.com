@@ -5,7 +5,9 @@ import Article from '../components/article/article.component.jsx';
 
 const IndexPage = ({ data }) => {
   console.log(data);
-  return <div>Hello world!</div>
+  return (
+    <div><Article /></div>
+  )
 }
 
 export const query = graphql`
