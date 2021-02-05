@@ -1,9 +1,11 @@
 import React from 'react';
 import laundryImg from '../../assets/laundary.jpg';
 
+import "./article.styles.scss"
+
 const article = () => {
   return (
-    <div>
+    <div className="article-container">
       <img src={laundryImg} />
       <div>
         <p>Eco-friendly ?</p>
