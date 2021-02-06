@@ -6,7 +6,7 @@ import Article from '../components/article/article.component.jsx';
 const IndexPage = ({ data }) => {
   console.log(data);
   return (
-    <div><Article /></div>
+    <div className="grid-container"><Article /></div>
   )
 }
 

@@ -1,6 +1,8 @@
 import React from "react"
 import Navbar from "./Navbar"
 
+import '../../scss/styles.scss';
+
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = React.useState(false)
 
