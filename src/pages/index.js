@@ -1,12 +1,14 @@
 import React from "react"
 import { graphql } from 'gatsby';
 import Article from '../components/article/article.component.jsx';
-
+import Layout from '../components/layout/layout.component';
 
 const IndexPage = ({ data }) => {
   console.log(data);
   return (
-    <div className="grid-container"><Article /></div>
+    <Layout>
+      <div className="grid-container"><Article /></div>
+    </Layout>
   )
 }
 
