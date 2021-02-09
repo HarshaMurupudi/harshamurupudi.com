@@ -7,7 +7,7 @@ const IndexPage = ({ data }) => {
   console.log(data);
   return (
     <Layout>
-      <div className="grid-container"><Article /></div>
+      <div className="home-page-grid-container"><Article /></div>
     </Layout>
   )
 }
