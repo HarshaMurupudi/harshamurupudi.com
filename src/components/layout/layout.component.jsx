@@ -1,5 +1,4 @@
 import React from "react"
-// import Navbar from "./Navbar"
 
 import '../../scss/styles.scss';
 
@@ -11,7 +10,6 @@ const Layout = ({ children }) => {
   }
   return (
     <>
-      // <Navbar toggle={toggle} />
       <main>{children}</main>
     </>
   )
