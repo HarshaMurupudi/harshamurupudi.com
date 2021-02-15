@@ -8,9 +8,12 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <div className="home-page-grid-container">
-        <Article />
-        <Article />
-        <Article />
+        <div><Article /></div>
+        <div>
+          <Article />
+          <Article />
+        </div>
+        <div><Article /></div>
       </div>
     </Layout>
   )
