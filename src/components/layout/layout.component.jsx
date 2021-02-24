@@ -1,4 +1,5 @@
 import React from "react"
+import NavBar from '../common/navbar.component'
 
 import '../../scss/styles.scss';
 
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
   }
   return (
     <>
+      <NavBar />
       <main>{children}</main>
     </>
   )
