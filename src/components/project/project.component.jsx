@@ -1,10 +1,12 @@
 import React from 'react'
 import laundryImg from '../../assets/laundary.jpg';
 
+import './project.styles.scss'
+
 const project = () => {
   return (
-    <div>
-      <img src={laundryImg} />
+    <div className="project-container">
+      <img className="project-img" src={laundryImg} />
       <h4>A label that stands time</h4>
       <p><span>#art</span> <span>#design</span></p>
       <p>Lorem Ipsum is simply dummy text of the
