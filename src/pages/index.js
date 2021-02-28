@@ -3,11 +3,17 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout/layout.component';
 import Article from '../components/article/article.component';
 import Project from '../components/project/project.component';
+import ThumbnailArticle from '../components/article/thumbnail-article.component'
 
 const IndexPage = ({ data }) => {
   console.log(data);
   return (
     <Layout>
+      <div className="home-page-grid-container">
+        <ThumbnailArticle />
+        <ThumbnailArticle />
+        <ThumbnailArticle />
+      </div>
       <div className="home-page-grid-container">
         <div><Project /></div>
         <div>

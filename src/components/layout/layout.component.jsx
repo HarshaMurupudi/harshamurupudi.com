@@ -1,5 +1,5 @@
 import React from "react"
-import NavBar from '../common/navbar.component'
+import Header from '../common/header/header.component'
 
 import '../../scss/styles.scss';
 
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
   }
   return (
     <>
-      <NavBar />
+      <Header />
       <main>{children}</main>
     </>
   )
