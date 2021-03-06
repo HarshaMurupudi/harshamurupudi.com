@@ -10,10 +10,11 @@ const Layout = ({ children }) => {
     setIsOpen(!isOpen)
   }
   return (
-    <>
+    <div className="layout-container">
       <Header />
+      <hr />
       <main>{children}</main>
-    </>
+    </div>
   )
 }
 

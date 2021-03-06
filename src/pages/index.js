@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import Layout from '../components/layout/layout.component';
 import Article from '../components/article/article.component';
 import Project from '../components/project/project.component';
@@ -14,6 +14,7 @@ const IndexPage = ({ data }) => {
         <ThumbnailArticle />
         <ThumbnailArticle />
       </div>
+      <hr />
       <div className="home-page-grid-container">
         <div><Project /></div>
         <div>

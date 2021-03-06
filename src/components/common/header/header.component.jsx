@@ -13,6 +13,7 @@ const Header = () => {
         <Logo />
         <FindMe />
       </div>
+      <hr />
       <NavBar />
     </div>
   )
