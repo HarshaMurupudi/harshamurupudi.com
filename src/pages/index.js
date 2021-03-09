@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => {
         </div>
         <div>
           <Advertisment />
-          <div>
+          <div className="art-container">
             <Art />
             <Art />
           </div>
