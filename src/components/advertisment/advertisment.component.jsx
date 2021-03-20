@@ -1,8 +1,10 @@
 import React from 'react'
 
+import './advertisment.styles.scss'
+
 const Advertisment = () => {
   return (
-    <div>
+    <div className="advertisment-container">
       <div>
         <h5>Get healthy</h5>
         <h5>Raw Honey</h5>

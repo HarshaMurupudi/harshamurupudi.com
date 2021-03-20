@@ -10,6 +10,8 @@ import Advertisment from '../components/advertisment/advertisment.component'
 import Art from '../components/art/art.component'
 import Subscribe from '../components/subscribe/subscribe.component'
 
+import robotSVG from '../assets/robot.svg'
+
 const IndexPage = ({ data }) => {
   console.log(data);
   return (
@@ -25,6 +27,11 @@ const IndexPage = ({ data }) => {
         <div>
           <Article />
           <Article />
+          <hr />
+          <div className="find-more-container">
+            <img src={robotSVG} />
+            <button>Find More</button>
+          </div>
         </div>
         <div>
           <Advertisment />

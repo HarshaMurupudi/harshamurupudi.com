@@ -24,3 +24,11 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.find-more-container {
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 57.53px;
+  }
+}
