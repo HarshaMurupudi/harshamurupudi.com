@@ -3,4 +3,19 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+  .find-me-content {
+    width: 70%;
+  }
+
+  p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
 }

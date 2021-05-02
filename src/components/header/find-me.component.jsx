@@ -11,16 +11,18 @@ import './find-me.styles.scss'
 const FindMe = () => {
   return (
     <div className="find-me-container">
-      <p>Find me on</p>
-      <div className="icon-container">
-        <img src={twitterIcon} />
-        <img src={pinterestIcon} />
-        <img src={instagramIcon} />
-        <img src={githubIcon} />
-        <img src={dribbleIcon} />
+      <div className="find-me-content">
+        <p>Find me on</p>
+        <div className="icon-container">
+          <img src={twitterIcon} />
+          <img src={pinterestIcon} />
+          <img src={instagramIcon} />
+          <img src={githubIcon} />
+          <img src={dribbleIcon} />
+        </div>
+        <hr />
+        <p className="company-sentence">Tinkering at <span >Dr.Queen Bee</span></p>
       </div>
-      <hr />
-      <p className="company-sentence">Tinkering at <span >Dr.Queen Bee</span></p>
     </div>
   )
 }
