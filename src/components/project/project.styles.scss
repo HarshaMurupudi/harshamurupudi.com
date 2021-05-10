@@ -1,5 +1,13 @@
 .project-container {
+  h3 {
+    letter-spacing: 1px;
+    padding: 1em 0 1em 0;
+  }
   .project-img {
     width: 100%;
+  }
+
+  button {
+    float: right;
   }
 }

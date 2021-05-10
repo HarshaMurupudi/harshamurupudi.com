@@ -6,6 +6,7 @@ import './project.styles.scss'
 const project = () => {
   return (
     <div className="project-container">
+      <h3>The Project</h3>
       <img className="project-img" src={laundryImg} />
       <h4>A label that stands time</h4>
       <p><span>#art</span> <span>#design</span></p>
@@ -16,7 +17,10 @@ const project = () => {
       an unknown printer took a galley of
       type and scrambled it to make a type
       specimen book and It has survived not
-only.</p>
+      only.
+      </p>
+
+      <button>More</button>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const Author = () => {
   return (
     <div className="author-container">
       <img src={UserImg} />
-      <div>
+      <div className="author-info">
         <p>Harsha Murupudi</p>
         <p>
           MAKER

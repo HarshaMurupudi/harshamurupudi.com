@@ -9,6 +9,7 @@ import ThumbnailArticle from '../components/article/thumbnail-article.component'
 import Advertisment from '../components/advertisment/advertisment.component'
 import Art from '../components/art/art.component'
 import Subscribe from '../components/subscribe/subscribe.component'
+import HomeArticleSection from '../components/home-article-section/home-article-section.component'
 
 import robotSVG from '../assets/robot.svg'
 
@@ -16,7 +17,7 @@ const IndexPage = ({ data }) => {
   console.log(data);
   return (
     <Layout>
-      <div className="home-page-grid-container">
+      <div className="home-page-grid-container post-header">
         <ThumbnailArticle />
         <ThumbnailArticle />
         <ThumbnailArticle />
@@ -25,8 +26,7 @@ const IndexPage = ({ data }) => {
       <div className="home-page-grid-container">
         <div><Project /></div>
         <div>
-          <Article />
-          <Article />
+          <HomeArticleSection />
           <hr />
           <div className="find-more-container">
             <img src={robotSVG} />
