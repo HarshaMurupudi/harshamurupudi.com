@@ -1,3 +1,15 @@
-.advertisment-container {
+.advertisment {
   background: aliceblue;
+  padding: 1em;
+  margin: 1em 0 1em 0;
+
+  .advertisment__heading {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .advertisment__footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
