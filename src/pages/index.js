@@ -7,9 +7,10 @@ import Article from '../components/article/article.component';
 import Project from '../components/project/project.component';
 import ThumbnailArticle from '../components/article/thumbnail-article.component'
 import Advertisment from '../components/advertisment/advertisment.component'
-import Art from '../components/art/art.component'
+
 import Subscribe from '../components/subscribe/subscribe.component'
 import HomeArticleSection from '../components/home-article-section/home-article-section.component'
+import HomeArtSection from '../components/home-art-section/home-art-section.component'
 
 import robotSVG from '../assets/robot.svg'
 
@@ -35,10 +36,7 @@ const IndexPage = ({ data }) => {
         </div>
         <div>
           <Advertisment />
-          <div className="art-container">
-            <Art />
-            <Art />
-          </div>
+          <HomeArtSection />
           <Subscribe />
         </div>
       </div>

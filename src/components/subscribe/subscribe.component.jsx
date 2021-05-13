@@ -1,8 +1,10 @@
 import React from 'react'
 
+import './subscribe.styles.scss'
+
 const Subscribe = () => {
   return (
-    <div>
+    <div className="subscribe">
       <h6>
         Don't wanna miss ?
     </h6>

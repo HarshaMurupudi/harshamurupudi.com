@@ -1,0 +1,13 @@
+.home-art {
+  h3 {
+    margin-bottom: 1em;
+  }
+  .home-art__image-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    .v1 {
+      border-left: 1px solid black;
+    }
+  }
+}
