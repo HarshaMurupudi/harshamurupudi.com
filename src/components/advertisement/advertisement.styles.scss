@@ -1,0 +1,29 @@
+.advertisement {
+  background: aliceblue;
+  padding: 1em;
+  margin: 1em 0 1em 0;
+
+  .advertisement__heading {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .advertisement__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+
+    img {
+      width: 69px;
+    }
+
+    .advertisement__footer__img-container {
+      margin-top: 0.5em;
+    }
+
+    button {
+      position: relative;
+      top: 50%;
+    }
+  }
+}

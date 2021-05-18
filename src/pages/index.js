@@ -3,11 +3,9 @@ import React from "react"
 import { graphql, StaticQuery } from 'gatsby';
 
 import Layout from '../components/layout/layout.component';
-import Article from '../components/article/article.component';
 import Project from '../components/project/project.component';
 import ThumbnailArticle from '../components/article/thumbnail-article.component'
-import Advertisment from '../components/advertisment/advertisment.component'
-
+import Advertisement from '../components/advertisement/advertisement.component'
 import Subscribe from '../components/subscribe/subscribe.component'
 import HomeArticleSection from '../components/home-article-section/home-article-section.component'
 import HomeArtSection from '../components/home-art-section/home-art-section.component'
@@ -35,7 +33,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
         <div>
-          <Advertisment />
+          <Advertisement />
           <HomeArtSection />
           <Subscribe />
         </div>
