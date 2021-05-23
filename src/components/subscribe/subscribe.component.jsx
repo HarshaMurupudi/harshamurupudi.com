@@ -1,5 +1,7 @@
 import React from 'react'
 
+import CustomButton from '../custom-button/custom-button.component'
+
 import './subscribe.styles.scss'
 
 const Subscribe = () => {
@@ -23,7 +25,7 @@ const Subscribe = () => {
 
       </div>
       <div className="subscribe__submit-btn">
-        <button>Subscribe</button>
+        <CustomButton>Subscribe</CustomButton>
       </div>
     </div>
 

@@ -10,6 +10,8 @@ import Subscribe from '../components/subscribe/subscribe.component'
 import HomeArticleSection from '../components/home-article-section/home-article-section.component'
 import HomeArtSection from '../components/home-art-section/home-art-section.component'
 
+import CustomButton from '../components/custom-button/custom-button.component'
+
 import robotSVG from '../assets/robot.svg'
 
 const IndexPage = ({ data }) => {
@@ -29,7 +31,7 @@ const IndexPage = ({ data }) => {
           <hr />
           <div className="find-more-container">
             <img src={robotSVG} />
-            <button>Find More</button>
+            <CustomButton>Find More</CustomButton>
           </div>
         </div>
         <div>

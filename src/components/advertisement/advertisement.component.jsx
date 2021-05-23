@@ -1,5 +1,7 @@
 import React from 'react'
 
+import CustomButton from '../custom-button/custom-button.component'
+
 import multiFloralHoneyImg from '../../assets/multi-floral-honey-trans.png'
 
 import './advertisement.styles.scss'
@@ -18,7 +20,7 @@ const advertisement = () => {
           <img src={multiFloralHoneyImg} />
         </div>
         <div>
-          <button type="button">Shop Now</button>
+          <CustomButton type="button">Shop Now</CustomButton>
         </div>
       </div>
     </div>

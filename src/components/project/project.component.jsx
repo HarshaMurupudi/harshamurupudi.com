@@ -1,6 +1,8 @@
 import React from 'react'
 import laundryImg from '../../assets/laundary.jpg';
 
+import CustomButton from '../custom-button/custom-button.component'
+
 import './project.styles.scss'
 
 const project = () => {
@@ -20,7 +22,7 @@ const project = () => {
       only.
       </p>
 
-      <button>More</button>
+      <CustomButton>More</CustomButton>
     </div>
   )
 }
