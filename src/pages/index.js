@@ -31,7 +31,9 @@ const IndexPage = ({ data }) => {
           <hr />
           <div className="find-more-container">
             <img src={robotSVG} />
-            <CustomButton>Find More</CustomButton>
+            <div>
+              <CustomButton>Find More</CustomButton>
+            </div>
           </div>
         </div>
         <div>
