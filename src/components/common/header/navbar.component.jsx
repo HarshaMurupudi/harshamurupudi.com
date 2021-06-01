@@ -20,15 +20,10 @@ const NavBar = () => {
   }
   return (
     <div className="navigation-container">
-      <div className="home-page-grid-container">
-        <div></div>
-        <div className="menu-items-contianer">
-          {Object.values(menuList).map(menuItem => (
-            <p key={menuItem.name}>{menuItem.name}</p>
-          ))}
-        </div>
-        <div>
-        </div>
+      <div className="menu-items-contianer">
+        {Object.values(menuList).map(menuItem => (
+          <p key={menuItem.name}>{menuItem.name}</p>
+        ))}
       </div>
     </div>
   )
