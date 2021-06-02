@@ -16,12 +16,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // flex-direction: column;
+
+    .toggle-btn {
+      display: inherit;
+    }
   }
 
-  @media (min-width: 600px) {
+  @media screen and (min-width: 768px) {
     .home-page-grid-container {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__find-me-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .toggle-btn {
+        display: none;
+      }
     }
   }
 
@@ -30,10 +43,15 @@
       width: 92vw;
       grid-template-columns: repeat(3, 1fr);
     }
-  }
 
-  @media screen and (min-width: 768px) {
-    .home-page-grid-container {
+    .header__find-me-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .toggle-btn {
+        display: none;
+      }
     }
   }
 }
