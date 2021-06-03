@@ -22,21 +22,21 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
-    .home-page-grid-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  // @media screen and (min-width: 768px) {
+  //   .home-page-grid-container {
+  //     grid-template-columns: repeat(2, 1fr);
+  //   }
 
-    .header__find-me-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  //   .header__find-me-container {
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
 
-      .toggle-btn {
-        display: none;
-      }
-    }
-  }
+  //     .toggle-btn {
+  //       display: none;
+  //     }
+  //   }
+  // }
 
   @media screen and (min-width: 992px) {
     .home-page-grid-container {
