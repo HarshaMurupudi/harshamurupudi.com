@@ -1,0 +1,30 @@
+.post-header-container {
+  hr {
+    display: none;
+  }
+}
+
+.post-header-grid-container {
+  display: none;
+}
+
+.post-header {
+  padding: 0.5em 0 0.5em 0;
+}
+
+@media screen and (min-width: 992px) {
+  .post-header-grid-container {
+    width: 92vw;
+    max-width: 1230px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .post-header-container {
+    hr {
+      display: inherit;
+    }
+  }
+}

@@ -1,7 +1,10 @@
 import React from "react"
-import Header from '../common/header/header.component'
 
-import '../../scss/styles.scss';
+import Header from '../header-section/header.component'
+import PostHeader from '../post-header/post-header.component';
+
+import '../../../scss/styles.scss';
+import './layout.styles.scss'
 
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = React.useState(false)
@@ -12,7 +15,8 @@ const Layout = ({ children }) => {
   return (
     <div className="layout-container">
       <Header />
-      <hr />
+      <hr className="layout-container__divider" />
+      <PostHeader />
       <main>{children}</main>
     </div>
   )

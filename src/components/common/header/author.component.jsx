@@ -1,6 +1,6 @@
 import React from 'react'
 
-import UserImg from '../../assets/user.svg'
+import UserImg from '../../../assets/user.svg'
 
 import './author.styles.scss'
 

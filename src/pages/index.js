@@ -2,9 +2,8 @@ import React from "react"
 
 import { graphql, StaticQuery } from 'gatsby';
 
-import Layout from '../components/layout/layout.component';
+import Layout from '../components/common/layout/layout.component';
 import Project from '../components/project/project.component';
-import ThumbnailArticle from '../components/article/thumbnail-article.component'
 import Advertisement from '../components/advertisement/advertisement.component'
 import Subscribe from '../components/subscribe/subscribe.component'
 import HomeArticleSection from '../components/home-article-section/home-article-section.component'
@@ -18,12 +17,6 @@ const IndexPage = ({ data }) => {
   console.log(data);
   return (
     <Layout>
-      <div className="home-page-grid-container post-header">
-        <ThumbnailArticle />
-        <ThumbnailArticle />
-        <ThumbnailArticle />
-      </div>
-      <hr />
       <div className="home-page-grid-container">
         <div><Project /></div>
         <div>

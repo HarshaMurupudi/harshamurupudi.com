@@ -1,6 +1,6 @@
 import React from 'react'
 
-import theGeneralistImg from '../../assets/the-generalist.png'
+import theGeneralistImg from '../../../assets/the-generalist.png'
 
 import './logo-section.styles.scss'
 

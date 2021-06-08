@@ -1,10 +1,10 @@
 import React from 'react'
 
-import twitterIcon from '../../assets/social-media-icons/twitter.svg'
-import pinterestIcon from '../../assets/social-media-icons/pinterest.svg'
-import instagramIcon from '../../assets/social-media-icons/instagram.svg'
-import githubIcon from '../../assets/social-media-icons/github.svg'
-import dribbleIcon from '../../assets/social-media-icons/dribble.svg'
+import twitterIcon from '../../../assets/social-media-icons/twitter.svg'
+import pinterestIcon from '../../../assets/social-media-icons/pinterest.svg'
+import instagramIcon from '../../../assets/social-media-icons/instagram.svg'
+import githubIcon from '../../../assets/social-media-icons/github.svg'
+import dribbleIcon from '../../../assets/social-media-icons/dribble.svg'
 
 import './find-me.styles.scss'
 
