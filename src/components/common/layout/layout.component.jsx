@@ -2,6 +2,7 @@ import React from "react"
 
 import Header from '../header-section/header.component'
 import PostHeader from '../post-header/post-header.component';
+import Sidebar from '../sidebar/sidebar.component'
 
 import '../../../scss/styles.scss';
 import './layout.styles.scss'
@@ -21,5 +22,6 @@ const Layout = ({ children }) => {
     </div>
   )
 }
+// <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
 
 export default Layout
