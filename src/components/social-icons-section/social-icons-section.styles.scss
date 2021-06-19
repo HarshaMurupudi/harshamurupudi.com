@@ -1,6 +1,10 @@
 /* social links */
+ul {
+  list-style-type: none;
+}
+
 .social-links {
-  margin-top: 2rem;
+  // margin-top: 2rem;
   width: 15rem;
   display: flex;
   justify-content: space-between;
