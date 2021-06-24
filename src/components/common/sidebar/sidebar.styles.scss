@@ -1,10 +1,7 @@
-/*
-=============== 
-Sidebar
-===============
-*/
+$sidebar-backgorund: hsl(210, 36%, 96%);
+
 .sidebar {
-  background: var(--clr-grey-10);
+  background: $sidebar-backgorund;
   position: fixed;
   top: 0;
   left: 0;

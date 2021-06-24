@@ -9,19 +9,19 @@ import './layout.styles.scss'
 
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = React.useState(false)
-
-  const toggle = () => {
+  const toggleSidebar = () => {
     setIsOpen(!isOpen)
   }
+
   return (
     <div className="layout-container">
-      <Header />
+      <Header toggleSidebar={toggleSidebar} />
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <hr className="layout-container__divider" />
       <PostHeader />
       <main>{children}</main>
     </div>
   )
 }
-// <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
 
-export default Layout
+export default Layout;

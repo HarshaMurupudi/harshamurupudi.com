@@ -9,7 +9,7 @@ import { FaAlignRight } from "react-icons/fa"
 
 import './header.styles.scss'
 
-const Header = () => {
+const Header = ({ toggleSidebar }) => {
   return (
     <div className="header">
       <div className="home-page-grid-container">
@@ -18,7 +18,7 @@ const Header = () => {
         <div className="header__find-me-container">
           <FindMe />
           <div>
-            <button type="button" className="toggle-btn">
+            <button type="button" className="toggle-btn" onClick={toggleSidebar}>
               <FaAlignRight />
             </button>
           </div>

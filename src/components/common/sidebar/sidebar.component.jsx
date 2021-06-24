@@ -4,6 +4,8 @@ import Links from "../../../constants/links"
 import SocialLinks from "../../social-icons-section/social-icons-section.component"
 import { FaTimes } from "react-icons/fa"
 
+import './sidebar.styles.scss'
+
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <aside className={`sidebar ${isOpen ? "show-sidebar" : ""} `}>
