@@ -35,7 +35,8 @@ const socailLink = [
     url: "https://www.twitter.com",
   },
 ]
-export default socailLink
+
+export default socailLink;
 // const links = data.map(link => {
 //   return (
 //     // <li key={link.id}>
